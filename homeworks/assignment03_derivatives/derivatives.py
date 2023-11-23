@@ -47,7 +47,7 @@ class LossAndDerivatives:
         """
 
         # YOUR CODE HERE
-        return np.sqrt(np.sum(w**2))
+        return np.sum(w**2)
 
     @staticmethod
     def l1_reg(w):
